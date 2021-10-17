@@ -1,0 +1,13 @@
+Type,title1,title2,title3,value
+type1,1-type-a,2-type-a,3-type-a,66
+type1,1-type-a,2-type-b,3-type-b,94
+type1,1-type-a,2-type-c,3-type-c,67
+type1,1-type-b,2-type-a,3-type-a,13
+type1,1-type-b,2-type-b,3-type-b,9
+type1,1-type-b,2-type-c,3-type-c,28
+type2,1-type-a,2-type-a,3-type-a,67
+type2,1-type-a,2-type-b,3-type-b,46
+type2,1-type-a,2-type-c,3-type-c,95
+type2,1-type-b,2-type-a,3-type-a,72
+type2,1-type-b,2-type-b,3-type-b,16
+type2,1-type-b,2-type-c,3-type-c,43

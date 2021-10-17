@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Awesome-pyecharts</title>
+            <script type="text/javascript" src="https://assets.pyecharts.org/assets/echarts.min.js"></script>
+
+</head>
+<body>
+    <div id="213e3a85aa9a494d9463ac762f8fca94" class="chart-container" style="width:900px; height:500px;"></div>
+    <script>
+        var chart_213e3a85aa9a494d9463ac762f8fca94 = echarts.init(
+            document.getElementById('213e3a85aa9a494d9463ac762f8fca94'), 'white', {renderer: 'canvas'});
+        var option_213e3a85aa9a494d9463ac762f8fca94 = {
+    "animation": true,
+    "animationThreshold": 2000,
+    "animationDuration": 1000,
+    "animationEasing": "cubicOut",
+    "animationDelay": 0,
+    "animationDurationUpdate": 300,
+    "animationEasingUpdate": "cubicOut",
+    "animationDelayUpdate": 0,
+    "color": [
+        "#c23531",
+        "#2f4554",
+        "#61a0a8",
+        "#d48265",
+        "#749f83",
+        "#ca8622",
+        "#bda29a",
+        "#6e7074",
+        "#546570",
+        "#c4ccd3",
+        "#f05b72",
+        "#ef5b9c",
+        "#f47920",
+        "#905a3d",
+        "#fab27b",
+        "#2a5caa",
+        "#444693",
+        "#726930",
+        "#b2d235",
+        "#6d8346",
+        "#ac6767",
+        "#1d953f",
+        "#6950a1",
+        "#918597"
+    ],
+    "series": [
+        {
+            "type": "sankey",
+            "name": "series_name",
+            "data": [
+                {
+                    "name": "type1"
+                },
+                {
+                    "name": "type2"
+                },
+                {
+                    "name": "1-type-a"
+                },
+                {
+                    "name": "1-type-b"
+                },
+                {
+                    "name": "2-type-a"
+                },
+                {
+                    "name": "2-type-b"
+                },
+                {
+                    "name": "2-type-c"
+                },
+                {
+                    "name": "3-type-a"
+                },
+                {
+                    "name": "3-type-b"
+                },
+                {
+                    "name": "3-type-c"
+                }
+            ],
+            "links": [
+                {
+                    "source": "type1",
+                    "target": "1-type-a",
+                    "value": 227
+                },
+                {
+                    "source": "type1",
+                    "target": "1-type-b",
+                    "value": 50
+                },
+                {
+                    "source": "type2",
+                    "target": "1-type-a",
+                    "value": 208
+                },
+                {
+                    "source": "type2",
+                    "target": "1-type-b",
+                    "value": 131
+                },
+                {
+                    "source": "1-type-a",
+                    "target": "2-type-a",
+                    "value": 133
+                },
+                {
+                    "source": "1-type-a",
+                    "target": "2-type-b",
+                    "value": 140
+                },
+                {
+                    "source": "1-type-a",
+                    "target": "2-type-c",
+                    "value": 162
+                },
+                {
+                    "source": "1-type-b",
+                    "target": "2-type-a",
+                    "value": 85
+                },
+                {
+                    "source": "1-type-b",
+                    "target": "2-type-b",
+                    "value": 25
+                },
+                {
+                    "source": "1-type-b",
+                    "target": "2-type-c",
+                    "value": 71
+                },
+                {
+                    "source": "2-type-a",
+                    "target": "3-type-a",
+                    "value": 218
+                },
+                {
+                    "source": "2-type-b",
+                    "target": "3-type-b",
+                    "value": 165
+                },
+                {
+                    "source": "2-type-c",
+                    "target": "3-type-c",
+                    "value": 233
+                }
+            ],
+            "left": "5%",
+            "top": "15%",
+            "right": "20%",
+            "bottom": "5%",
+            "nodeWidth": 20,
+            "nodeGap": 30,
+            "nodeAlign": "justify",
+            "layoutIteration": 32,
+            "orient": "horizontal",
+            "draggable": true,
+            "focusNodeAdjacency": false,
+            "label": {
+                "show": true,
+                "position": "top",
+                "margin": 8
+            },
+            "lineStyle": {
+                "show": true,
+                "width": 1,
+                "opacity": 0.3,
+                "curveness": 0.5,
+                "type": "solid",
+                "color": "source"
+            }
+        }
+    ],
+    "legend": [
+        {
+            "data": [
+                "series_name"
+            ],
+            "selected": {
+                "series_name": true
+            },
+            "show": true,
+            "padding": 5,
+            "itemGap": 10,
+            "itemWidth": 25,
+            "itemHeight": 14
+        }
+    ],
+    "tooltip": {
+        "show": true,
+        "trigger": "item",
+        "triggerOn": "mousemove|click",
+        "axisPointer": {
+            "type": "line"
+        },
+        "showContent": true,
+        "alwaysShowContent": false,
+        "showDelay": 0,
+        "hideDelay": 100,
+        "textStyle": {
+            "fontSize": 14
+        },
+        "borderWidth": 0,
+        "padding": 5
+    },
+    "title": [
+        {
+            "text": "title_name",
+            "padding": 5,
+            "itemGap": 10
+        }
+    ]
+};
+        chart_213e3a85aa9a494d9463ac762f8fca94.setOption(option_213e3a85aa9a494d9463ac762f8fca94);
+    </script>
+</body>
+</html>
